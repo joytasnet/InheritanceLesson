@@ -78,29 +78,29 @@ public void create(){
 	}   
 	
 ## Q3Mainメソッドを作り実行例の処理を実現せよ。
-
+```
 [実行例]  
 1.家を建てる,2.家を見る,3.終了> 1  
 源さんは土台を作った  
 北さんは壁を作った  
 角さんは屋根を作った  
 1.家を建てる,2.家を見る,3.終了> 2  
-&nbsp;&nbsp;&nbsp;&emsp;&emsp;▲&nbsp;&nbsp;&nbsp;&emsp;&emsp;   
-&emsp;&emsp;▲▼▲&emsp;&emsp;   
-&nbsp;&emsp;▲▼▲▼▲&nbsp;&emsp;  
-&nbsp;&emsp;|&emsp;&emsp;&emsp;|&nbsp;&emsp;  
-&nbsp;&emsp;|&emsp;&emsp;&emsp;|&nbsp;&emsp;  
+   ▲     
+  ▲▼▲    
+ ▲▼▲▼▲ 
+ |   |  
+ |   |  
 □□□□□□□  
 1.家を建てる,2.家を見る,3.終了>1  
 源さんは土台を作った  
 北さんは壁を作った  
 角さんは屋根を作った  
 1.家を建てる,2.家を見る,3.終了>2  
-&nbsp;&nbsp;&nbsp;&emsp;&emsp;▲&nbsp;&nbsp;&nbsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;▲&nbsp;&nbsp;&nbsp;&emsp;&emsp;   
-&emsp;&emsp;▲▼▲&emsp;&emsp;&emsp;&emsp;▲▼▲&emsp;&emsp;   
-&nbsp;&emsp;▲▼▲▼▲&nbsp;&emsp;&nbsp;&emsp;▲▼▲▼▲&nbsp;&emsp;  
-&nbsp;&emsp;|&emsp;&emsp;&emsp;|&nbsp;&emsp;&nbsp;&nbsp;&emsp;|&emsp;&emsp;&emsp;|&nbsp;&emsp;  
-&nbsp;&emsp;|&emsp;&emsp;&emsp;|&nbsp;&emsp;&nbsp;&nbsp;&emsp;|&emsp;&emsp;&emsp;|&nbsp;&emsp;  
+   ▲      ▲   
+  ▲▼▲    ▲▼▲   
+ ▲▼▲▼▲  ▲▼▲▼▲ 
+ |   |  |   |  
+ |   |  |   |  
 □□□□□□□□□□□□□□  
 1.家を建てる,2.家を見る,3.終了>1  
 源さんは土台を作った  
@@ -115,11 +115,11 @@ public void create(){
 北さんは壁を作った  
 角さんは屋根を作った  
 1.家を建てる,2.家を見る,3.終了>2  
-&nbsp;&nbsp;&nbsp;&emsp;&emsp;▲&nbsp;&nbsp;&nbsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;▲&nbsp;&nbsp;&nbsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;▲&nbsp;&nbsp;&nbsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;▲&nbsp;&nbsp;&nbsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;▲&nbsp;&nbsp;&nbsp;&emsp;&emsp;   
-&emsp;&emsp;▲▼▲&emsp;&emsp;&emsp;&emsp;▲▼▲&emsp;&emsp;&emsp;&emsp;▲▼▲&emsp;&emsp;&emsp;&emsp;▲▼▲&emsp;&emsp;&emsp;&emsp;▲▼▲&emsp;&emsp;   
-&nbsp;&emsp;▲▼▲▼▲&nbsp;&emsp;&nbsp;&emsp;▲▼▲▼▲&nbsp;&emsp;&nbsp;&emsp;▲▼▲▼▲&nbsp;&emsp;&nbsp;&emsp;▲▼▲▼▲&nbsp;&emsp;&nbsp;&emsp;▲▼▲▼▲&nbsp;&emsp;  
-&nbsp;&emsp;|&emsp;&emsp;&emsp;|&nbsp;&emsp;&nbsp;&emsp;|&emsp;&emsp;&emsp;|&nbsp;&emsp;&nbsp;&nbsp;&emsp;|&emsp;&emsp;&emsp;|&nbsp;&emsp;&nbsp;&emsp;|&emsp;&emsp;&emsp;|&nbsp;&emsp;&nbsp;&nbsp;&emsp;|&emsp;&emsp;&emsp;|&nbsp;&emsp;  
-&nbsp;&emsp;|&emsp;&emsp;&emsp;|&nbsp;&emsp;&nbsp;&emsp;|&emsp;&emsp;&emsp;|&nbsp;&emsp;&nbsp;&nbsp;&emsp;|&emsp;&emsp;&emsp;|&nbsp;&emsp;&nbsp;&emsp;|&emsp;&emsp;&emsp;|&nbsp;&emsp;&nbsp;&nbsp;&emsp;|&emsp;&emsp;&emsp;|&nbsp;&emsp;  
+   ▲      ▲      ▲      ▲      ▲  
+  ▲▼▲    ▲▼▲    ▲▼▲    ▲▼▲    ▲▼▲ 
+ ▲▼▲▼▲  ▲▼▲▼▲  ▲▼▲▼▲  ▲▼▲▼▲  ▲▼▲▼▲ 
+ |   |  |   |  |   |  |   |  |   | 
+ |   |  |   |  |   |  |   |  |   | 
 □□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□  
 1.家を建てる,2.家を見る,3.終了>1  
 もう家を建てる場所がありません  
